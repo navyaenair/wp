@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>mypage</title>
+</head>
+<body bgcolor="#c1e0cd">
+<form name="oexam">
+<center><H1> <style=color:#CCEEFF;><marquee width="60%" direction="right" height="100px">WELCOME TO ONLINE EXAM</marquee></style></H1></center>
+<P><b>1.which one is the platform independent language?</b>
+</p><br>
+<input type="radio" id="r1" name="radio1">Java<br>
+<input type="radio" id="r1" name="radio1">Html<br>
+<input type="radio" id="r1" name="radio1">C<br>
+<input type="radio" id="r1" name="radio1">C++<br>
+
+<P><b>2.HTML stands for______________?</b>
+</p><br>
+<input type="radio" id="r2" name="radio2">Hyper Text Markup Language<br>
+<input type="radio" id="r2" name="radio2">Hyper Text Markup Languages<br>
+<input type="radio" id="r2" name="radio2">Hyper Texting Markup Language<br>
+<input type="radio" id="r2" name="radio2">None of these<br>
+
+<P><b>3.HTML is what type of language ? </b>
+</p><br>
+<input type="radio" id="r2" name="radio3">Scripting language<br>
+<input type="radio" id="r2" name="radio3">Network Protocol<br>
+<input type="radio" id="r2" name="radio3">Programing language<br>
+<input type="radio" id="r2" name="radio3">Markup Language<br>
+
+
+<P><b>4.Which one is not a programming language?</b>
+</p><br>
+<input type="radio" id="r2" name="radio4">C++<br>
+<input type="radio" id="r2" name="radio4">Python<br>
+<input type="radio" id="r2" name="radio4">Html<br>
+<input type="radio" id="r2" name="radio4">Java<br>
+
+
+<P><b>5.Fundamental HTML Block is known as ___________. ?</b>
+</p><br>
+<input type="radio" id="r2" name="radio5">HTML Body<br>
+<input type="radio" id="r2" name="radio5">HTML Tag<br>
+<input type="radio" id="r2" name="radio5">HTML Attribute<br>
+<input type="radio" id="r2" name="radio5">HTML Element<br>
+<br>
+<input type="submit" value="submit" name="sbmit" onclick="ok()">
+</form>
+<script>
+ function ok()
+ {
+ var mark=0;
+ if(document.oexam.radio1[0].checked==true)
+ mark=mark+1;
+ if(document.oexam.radio2[0].checked==true)
+ mark=mark+1;
+ if(document.oexam.radio3[3].checked==true)
+ mark=mark+1;
+ if(document.oexam.radio4[2].checked==true)
+ mark=mark+1;
+ if(document.oexam.radio5[1].checked==true)
+ mark=mark+1;
+ alert("your score is "+mark);
+ }
+ </script>
+ </body>
+ </html>
+
